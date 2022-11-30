@@ -1,7 +1,7 @@
 ![image](https://user-images.githubusercontent.com/105589308/188776290-b3ccbf88-3a74-4af8-9633-45039ae21566.png)
 # ALX Software Engineering DevOps Track #
 ## Description ##
-ALX_africa are on a mission to identify, develop and equip Africa’s next 3 million leaders. We have projects everyday that we have to push on GitHub in order for an automatic review to be done by Ubuntu 20.04 LTS. 
+ALX_africa are on a mission to identify, develop a growing pool of software engineering talent and equip Africa’s next 3 million leaders. We have assigned projects everyday that we have to push on GitHub in order for an automatic review to be done by Ubuntu 20.04 LTS. 
 
 This repository contains directories each corresponding to a software engineering or DevOps project. These projects are part of the ALX Software Engineering year 1 curriculum. In these projects, we cover everything from the basics of the Linux Shell, Bash commands, Bash scripting, networking, APIs, and web-stack debugging to more advanced topics.
 
@@ -10,7 +10,7 @@ A shell script is small computer program that is designed to be run or executed 
 
 ![image](https://user-images.githubusercontent.com/105589308/194436026-19c03a0c-94db-47d9-9b72-36d9fbe5cb44.png)
 
-A shell script is program composed of a series of operating system commands that are executed by the command-line interpreter or the shell in sequence. It is called a shell script because the individual commands are combined to form a "script" that the shell follows and executes, very much like how an actor/actress follows the script written for him/her. A shell script is useful for repetitive tasks that would become time consuming if manually typed in then executed one at a time. For example, programmers and developers use shell scripts to automate their code compile process so that instead of typing in a series of long commands, they just execute the shell script. This is especially helpful for them because they often compile and test code, sometimes multiple times, in one single minute.
+A shell script is program composed of a series of operating system commands that are executed by the command-line interpreter or the shell in sequence. It is called a shell script because the individual commands are combined to form a "script" that the shell follows and executes. A shell script is useful for repetitive tasks that would become time consuming if manually typed in then executed one at a time. For example, programmers and developers use shell scripts to automate their code compile process so that instead of typing in a series of long commands, they just execute the shell script. This is especially helpful for them because they often compile and test code, sometimes multiple times, in one single minute.
 
 ![image](https://user-images.githubusercontent.com/105589308/194436159-9f69ca49-69c3-4b81-ac3f-9302c2e023f0.png)
 

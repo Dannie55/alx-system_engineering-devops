@@ -84,10 +84,6 @@ input: ls -map* (List all files and directories of the current directory, separa
 File: school.mgc
 input 1: 0 string SCHOOL School data
 
-input 2: !:mime School
+input 2:!:mime School
 
-Then_on_your_terminal_run: file -C -m school.mgc
-
-Create a magic file called school.mgc that can be used with the command file to detect School data files. Holberton data files always contain "SCHOOL" at offset 0.
-
-This exercise was much different from the previous exercises. From what I understand, the magic file is used to detect patterns in files and will give a specified output depending on a matching pattern. The first argument is a number representing the offset. The second argument is the data type you are searching for. In our case, it is a string. The third argument is the data you are searching for. In our case, "SCHOOL", which we specified as a string in the second argument. The fourth argument is the message you want to output on match. If the search matches, it will output this message. The last argument is separated by a line. Since the fourth argument can be long and contain multiple strings, we separate the fourth and fifth arguments with this new line. This last argument can be multiple different things. In this case, a MIME type. According to bash manual, a "MIME type is given on a separate line, which must be the next non-blank or comment line after the magic line that identifies the file type". I knew to search for a MIME type because the example provided: $ file --mime-type -m school.mgc * The above returns message "School" when matching a MIME ?? Not exactly sure, but this is what I can tell from what I've tested out and can see from the output and examples. $ file -m school.mgc * The above will return message "School data" for any offset 0 "SCHOOL" matches. A cool thing to note is that the file command is compiling and running the magic file. So there is no need to compile to magic "permanently". NOTE: Compiling a magic source file: $ file -C -m .mgc This produces the compiled magic file. $ file -i -m .mgc * This allows you to use the compiled file by specifying its name using the -m switch again.
+Run the command_on_your_terminal: file-C -m school.mgc

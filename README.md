@@ -21,6 +21,7 @@ Scripts are also identified with a shebang. Shebang is a combination of bash # a
 
 ## Projects ##
 [0x00-shell_basics](https://github.com/Dannie55/alx-system_engineering-devops/tree/master/0x00-shell_basics) | Introduction to the basics of the Linux Shell
+
 [0x01-shell_permissions](https://github.com/Dannie55/alx-system_engineering-devops/tree/master/0x01-shell_permissions) | Introduction to Shell permissions and the file system
 
 

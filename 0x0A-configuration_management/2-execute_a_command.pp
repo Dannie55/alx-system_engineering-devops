@@ -1,4 +1,6 @@
-# Kills a process named killmenow
+# How to use the exec resource of Puppet
 
-exec { 'pkill -f killmenow':
-  path => '/usr/bin/:/usr/local/bin/:/bin/'
+exec { 'kill_process':
+  command => 'pkill -f killmenow',
+  path    => ['/bin', '/usr/bin', '/sbin', '/usr/sbin'],
+}

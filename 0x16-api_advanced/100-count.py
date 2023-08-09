@@ -18,8 +18,8 @@ def count_words(subreddit, word_list, count_dict={}, after=None):
         params["after"] = after
     req = requests.get(
         "https://www.reddit.com/r/{}/hot.json".format(subreddit),
-        heade{
-            "User-Agent": "custom"},
+        headers={
+            "User-Agent": "underscoDe@alx-holbertonschool"},
         params=params,
         allow_redirects=False)
     if req.status_code == 200:
